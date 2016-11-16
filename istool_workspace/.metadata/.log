@@ -1,0 +1,57 @@
+!SESSION 2016-11-08 09:48:46.504 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=JRE 1.7.0 IBM J9 2.7 Linux amd64-64 Compressed References 20151222_283006 (JIT enabled, AOT enabled)
+J9VM - R27_Java727_SR3_20151222_1037_B283006
+JIT  - tr.r13.java.sr3.fp30_20151209_107107.01
+GC   - R27_Java727_SR3_20151222_1037_B283006_CMPRSS
+J9CL - 20151222_283006
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  export -preview -domain is-server.ibm.com:9445 -username isadmin -password (omitted) -archive /opt/IBM/install/ds_arc.isx -datastage IS-SERVER.IBM.COM/dstage1/*/*.*
+Command-line arguments:  export -preview -domain is-server.ibm.com:9445 -username isadmin -password (omitted) -archive /opt/IBM/install/ds_arc.isx -datastage IS-SERVER.IBM.COM/dstage1/*/*.*
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-08 09:48:47.187
+!MESSAGE Could not install bundle plugins/com.ibm.istools.ai.datastage.core_1.0.0.jar   Bundle "com.ibm.istools.ai.datastage.core" version "1.0.0" has already been installed from: update@plugins/com.ibm.istools.ai.core_1.0.0.jar
+
+!ENTRY org.eclipse.emf.ecore 2 0 2016-11-08 09:48:47.408
+!MESSAGE Both 'com.ibm.iis.istools.cli.commands' and 'com.ibm.iis.istools.cli' register a package for 'http://com.ibm.iis.istools.repository.core/connection'
+
+!ENTRY com.ibm.iis.client 2 0 2016-11-08 09:48:47.566
+!MESSAGE Property [j2ee.opts] is empty or not found in the [/opt/IBM/InformationServer/ASBNode/bin/setupEnv.properties] file. No application server specific JVM properties will be set.
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-08 09:48:47.612
+!MESSAGE NLS unused message: Rename_suffix_default in: com.ibm.istools.cli.ftoptions.utils.messages
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-08 09:48:48.931
+!MESSAGE NLS unused message: ExportClient.ExportClient_PreviewingAssets in: com.ibm.iis.istools.ai.core.util.messages
+!SESSION 2016-11-08 09:49:07.846 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=JRE 1.7.0 IBM J9 2.7 Linux amd64-64 Compressed References 20151222_283006 (JIT enabled, AOT enabled)
+J9VM - R27_Java727_SR3_20151222_1037_B283006
+JIT  - tr.r13.java.sr3.fp30_20151209_107107.01
+GC   - R27_Java727_SR3_20151222_1037_B283006_CMPRSS
+J9CL - 20151222_283006
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  workbench query -domain is-server.ibm.com:9445 -username isadmin -password (omitted) -queryname datastage-jobs -filename /opt/IBM/install/igc_query.txt -format CSV_UTF8 -includeAssetID
+Command-line arguments:  workbench query -domain is-server.ibm.com:9445 -username isadmin -password (omitted) -queryname datastage-jobs -filename /opt/IBM/install/igc_query.txt -format CSV_UTF8 -includeAssetID
+
+!ENTRY org.eclipse.emf.ecore 2 0 2016-11-08 09:49:08.769
+!MESSAGE Both 'com.ibm.iis.istools.cli.commands' and 'com.ibm.iis.istools.cli' register a package for 'http://com.ibm.iis.istools.repository.core/connection'
+
+!ENTRY com.ibm.iis.client 2 0 2016-11-08 09:49:08.970
+!MESSAGE Property [j2ee.opts] is empty or not found in the [/opt/IBM/InformationServer/ASBNode/bin/setupEnv.properties] file. No application server specific JVM properties will be set.
+!SESSION 2016-11-09 16:41:40.479 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=JRE 1.7.0 IBM J9 2.7 Linux amd64-64 Compressed References 20151222_283006 (JIT enabled, AOT enabled)
+J9VM - R27_Java727_SR3_20151222_1037_B283006
+JIT  - tr.r13.java.sr3.fp30_20151209_107107.01
+GC   - R27_Java727_SR3_20151222_1037_B283006_CMPRSS
+J9CL - 20151222_283006
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  workbench query -domain is-server.ibm.com:9445 -username isadmin -password (omitted) -queryname datastage-jobs -filename /opt/IBM/git-repos/git-datastage-jobs.txt -format CSV_UTF8 -includeAssetID
+Command-line arguments:  workbench query -domain is-server.ibm.com:9445 -username isadmin -password (omitted) -queryname datastage-jobs -filename /opt/IBM/git-repos/git-datastage-jobs.txt -format CSV_UTF8 -includeAssetID
+
+!ENTRY org.eclipse.emf.ecore 2 0 2016-11-09 16:41:41.310
+!MESSAGE Both 'com.ibm.iis.istools.cli.commands' and 'com.ibm.iis.istools.cli' register a package for 'http://com.ibm.iis.istools.repository.core/connection'
+
+!ENTRY com.ibm.iis.client 2 0 2016-11-09 16:41:41.529
+!MESSAGE Property [j2ee.opts] is empty or not found in the [/opt/IBM/InformationServer/ASBNode/bin/setupEnv.properties] file. No application server specific JVM properties will be set.
